@@ -1,0 +1,62 @@
+/deep/.el-table th {
+  background: #F2F2F2;
+  color: #a0a0a0;
+}
+/deep/.el-table__fixed-right-patch {
+  background: #F2F2F2;
+}
+.err-c {
+  color: #FC4850;
+}
+.suc-c {
+  color: #31B9B6;
+}
+.err-c-disabled {
+  color: #C0C4CC;
+}
+.op-slot-wrap {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  /deep/ span {
+    font-size: 14px;
+  }
+}
+.g-header {
+  .g-search {
+    display: flex;
+    flex-direction: row;
+    /deep/ .el-form {
+      .el-form-item {
+        margin-right: 16px;
+        margin-bottom: 18px;
+      }
+    }
+  }
+  .header-operation {
+    display: flex;
+    flex-direction: row;
+    /deep/ .el-button {
+      margin-right: 15px;
+      //&:last-child {
+      //  margin-right: 0;
+      //}
+    }
+    /deep/ .el-button+ .el-button {
+      margin-left: 0;
+    }
+  }
+}
+/deep/.el-divider {
+  margin: 12px 0 30px;
+}
+.common-content {
+  display: flex;
+  flex-direction: column;
+  padding: 25px 25px 0;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+}

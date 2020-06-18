@@ -1,0 +1,30 @@
+//sidebar
+$menuText:#fff;
+$menuActiveText:#409EFF;
+$subMenuActiveText:#f4f4f5; //https://github.com/ElemeFE/element/issues/12951
+
+$menuBg:#001529;
+$menuHover:#263445;
+
+//$subMenuBg:#1f2d3d;
+$subMenuBg:#000c17;
+//$subMenuHover:#001528;
+$subMenuHover:#1f2d3d;
+
+$sideBarWidth: 240px;
+
+$mainBg: #f2f1f6;
+
+// the :export directive is the magic sauce for webpack
+// https://www.bluematador.com/blog/how-to-share-variables-between-js-and-sass
+:export {
+  menuText: $menuText;
+  mainBg: $mainBg;
+  menuActiveText: $menuActiveText;
+  subMenuActiveText: $subMenuActiveText;
+  menuBg: $menuBg;
+  menuHover: $menuHover;
+  subMenuBg: $subMenuBg;
+  subMenuHover: $subMenuHover;
+  sideBarWidth: $sideBarWidth;
+}
